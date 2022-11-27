@@ -1,2 +1,1 @@
-# projeto-final-html
-Projeto final do bootcamp da NTT data - HTML
+Projeto final do curso da NTT data, trilha de HTML.
