@@ -1,38 +1,84 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+
+html,
+body {
     margin: 0;
 }
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    color: rgba(10, 139, 96, 0.945);
+}
+
 body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: "Roboto Slab", serif;
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgba(14, 211, 145, 0.945);
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
     background-color: aqua;
     padding: 10px 20px 0px;
 }
+
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    display: flex;
+    justify-content: center;
 }
+
 .content {
-    background-color: white;
+    background-color: rgba(14, 211, 145, 0.945);
     min-height: 300px;
     padding: 20px;
 }
+
+.content table {
+    border: 1px solid grey;
+}
+
+.content tbody {
+    text-align: center;
+}
+
+.content table td {
+    border: 1px solid grey;
+}
+
+.content table td:hover {
+    background-color: rgba(12, 161, 112, 0.945);
+}
+
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
